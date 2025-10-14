@@ -1,0 +1,34 @@
+    [{
+      "id": "1",
+      "name": "Celular",
+      "price": 699,
+      "description": "Celular de alta gama",
+      "category": "celulares",
+      "imageUrl": "https://th.bing.com/th/id/OIP.uW013Xz2ZMUDccwTChSALQHaHa?rs=1&pid=ImgDetMain"
+    },
+    {
+      "id": "2",
+      "name": "Notebook",
+      "price": 1299,
+      "description": "Notebook para trabajo y estudio",
+      "category": "computacion",
+      "imageUrl": "https://th.bing.com/th/id/OIP.JXN7cxSb54Uy7w3LGrAKkAHaHa?rs=1&pid=ImgDetMain"
+    },
+    {
+      "id": "3",
+      "name": "Tablet",
+      "price": 499,
+      "description": "Notebook para trabajo y estudio",
+      "category": "computacion",
+      "imageUrl": "https://th.bing.com/th/id/R.b4affb09ba8b6b346903276df022129e?rik=7gsCSW%2bgq%2f09eQ&pid=ImgRaw&r=0"
+    },
+        {
+      "id": "4",
+      "name": "Barra de sonido",
+      "price": 600,
+      "description": "Barra de sonido 5.1 canales",
+      "category": "audio",
+      "imageUrl": "https://cdn.billowshop.com/9c63d39e-6bd9-9ad2/img/Producto/fc08b365-33d2-1b44-783a-cd7571783d9e/ML-gut-gen-2-2025-producto-684346c352ba5.webp"
+    }
+   
+]

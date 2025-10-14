@@ -1,0 +1,10 @@
+
+.product-item {
+    background: #fff;
+    color:#48e;
+}
+.product-item img{
+    margin:auto;
+    height:150px;
+    width: 150px;
+}
