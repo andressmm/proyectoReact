@@ -8,7 +8,7 @@ export const ItemList = ({ lista }) => {
     <>
       {lista.length ? (
         lista.map((prod) => (
-
+        
           <Link to={`/detail/${prod.id}`} key={prod.id}>
             <Item {...prod} />
           </Link>

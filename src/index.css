@@ -2,7 +2,7 @@
   font-family: Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-  
+  background-color: black;
   color: #48e;
 
   
@@ -39,7 +39,7 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #786565;
+  background-color: #d2dca8;
   cursor: pointer;
   transition: border-color 0.25s;
 }
