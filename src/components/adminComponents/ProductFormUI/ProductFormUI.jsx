@@ -8,9 +8,8 @@ export const ProductFormUI=({
     onSubmit,
 })=>{
 
-return
-(<section>
-    <form onSubmit={onSubmit}>
+return (<section>
+    <form className='product-form' onSubmit={onSubmit}>
         <h2>Agregar Producto</h2>
         <div>
             <label>Nombre</label>

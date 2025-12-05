@@ -8,7 +8,7 @@ import { BrowserRouter,Routes,Route } from 'react-router-dom'
 import { ItemListContainer } from './components/ItemListContainer/ItemListContainer'
 import { CartProvider } from './context/CartContext/CartProvider'
 import { Cart } from './components/Cart/Cart'
-import { ProducFormContainer } from './components/adminComponents/ProducFormContainer/ProducFormContainer'
+import { ProductFormContainer } from './components/adminComponents/ProductFormContainer/ProductFormContainer'
 
 
 
@@ -31,7 +31,7 @@ function App() {
 
             <Route path="/detail/:id" element={ <ItemDetailsContainer/> } />
             <Route path="/carrito" element={ <Cart/> } />
-            <Route path='/admin' element={<ProducFormContainer/>}/>
+            <Route path='/admin' element={<ProductFormContainer/>}/>
           </Routes>
       <Footer/>
       </div>

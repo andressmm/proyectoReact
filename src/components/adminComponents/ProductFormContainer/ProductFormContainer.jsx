@@ -1,13 +1,13 @@
 import {useState} from "react"
 import { ProductFormUI } from "../ProductFormUI/ProductFormUI";
-import { uploadToImgbb } from "../../../services/uploadImage";
 import { validateProduct } from "../../../utils/validateProduct";
+import { uploadToImgbb } from "../../../services/uploadImage";
 import { createProduct } from "../../../services/products";
 //import "../ProducFormContainer/producFormConainer.css"
-export const ProducFormContainer=()=> {
+export const ProductFormContainer=()=> {
 
     const [loading,setLoading]= useState ();
-            const [errors,setErrors]= useState ({});
+            const [errors,setErrors]= useState ("");
 
         const [file,setFile]= useState (null);
             const [product,setProduct]= useState (
@@ -48,7 +48,7 @@ if (Object.keys (newErrors).length >0){
 }
 
 try {
-const imageUrl= await uploadtoImgbb ();
+const imageUrl= await uploadToImgbb (file);
 
 const productData={
     ...product, price:Number(product.price), imageUrl};
