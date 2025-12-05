@@ -1,0 +1,16 @@
+import { useAuthContext } from "../../context/AuthContext/useAuthContext";
+import {children} from "react";
+import { Navigate } from "react-router-dom";
+export const RutaProtegida = () => {
+
+
+const {user}= useAuthContext();
+
+if (!user){
+    return <Navigate to="/" replace />
+}
+ 
+
+return children
+
+}
