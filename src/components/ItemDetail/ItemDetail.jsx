@@ -1,6 +1,6 @@
 import { Item } from "../Item/Item";
 import { useCartContext } from "../../context/CartContext/useCartContext";
-import { Count } from "../count/Count";
+import { Count } from "../Count/Count";
 
 
 export const ItemDetail =({detail})=>{  
