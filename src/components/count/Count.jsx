@@ -2,7 +2,7 @@ import "./count.css";
 import { useState } from "react";
 
 
-export const Count = ({btnText, onConfirm}) => {
+export const count = ({btnText, onConfirm}) => {
 
 const [count, setCount] = useState (0);
 
