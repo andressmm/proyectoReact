@@ -1,7 +1,7 @@
 import { Item } from "../Item/Item";
 import { useCartContext } from "../../context/CartContext/useCartContext";
 
-import { count } from "../count/count";
+import { Count } from "../count/count";
 
 
 export const ItemDetail =({detail})=>{  
