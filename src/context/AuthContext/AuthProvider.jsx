@@ -12,8 +12,10 @@ export const AuthProvider = ({children}) => {
             return null;
         })
 
+
+
         const login =(name,password)=>{
-            if (name=="admin" && password==='1234'){
+            if (name==="admin" && password==='1234'){
                 const session={name};
                 setUser(session);
                 sessionStorage.setItem("session",JSON.stringify(session));
@@ -22,6 +24,8 @@ export const AuthProvider = ({children}) => {
             return false;
 
         };
+
+
     
 
     const logout=()=>{
