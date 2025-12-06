@@ -1,7 +1,7 @@
 import { Item } from "../Item/Item";
 import { useCartContext } from "../../context/CartContext/useCartContext";
 
-import { count } from "../count/count.jsx";
+import { Count } from "../Count/Count.jsx";
 
 
 export const ItemDetail =({detail})=>{  
