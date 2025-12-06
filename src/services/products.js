@@ -1,8 +1,8 @@
 const BASE_URL='https://6931e8bd11a8738467d0f538.mockapi.io/products'
-
+let url=BASE_URL;
 
 export const createProduct= async (product)=>{
-    const res= await fetch (BASE_URL,{
+    const res= await fetch (url,{
         method:'POST',
         headers:{
             
@@ -23,7 +23,7 @@ export const createProduct= async (product)=>{
 }
 
 export const getProducts = async (category) => {
-    let url = BASE_URL;
+    
     if (category) {
         url = `${BASE_URL}?category=${category}`;
     }
