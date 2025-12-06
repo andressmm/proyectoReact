@@ -1,7 +1,7 @@
 import { Item } from "../Item/Item";
 import { useCartContext } from "../../context/CartContext/useCartContext";
 
-import { Count } from "../count/count";
+import { Count } from "../Count/Count";
 
 
 export const ItemDetail =({detail})=>{  
@@ -16,7 +16,6 @@ export const ItemDetail =({detail})=>{
 
 return (
     <Item {...detail}>
-       {/* <button onClick={()=>addItem(detail)}>Enviar al carrito</button>*/}
 
         <Count btnText={"Agregar al carrito"} onConfirm={handleAdd}/>    
     </Item>
